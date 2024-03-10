@@ -7,15 +7,15 @@ function App() {
         <img src="src/assets/logo.svg" alt="logo" />
 
         <div className="shadow-lg rounded-lg w-4/6 text-left bg-white text-white bg-opacity-20 px-4 py-8 mt-5 backdrop-blur-lg">
-          <p className="text-xl md:text-2xl mb-4 ">
+          <p className="text-2xl mb-4 ">
             Receba sua Proof-Of-Attandance NFT
           </p>
-          <p className="text-sm md:text-base">
+          <p className="text-base">
             Para receber sua NFT você precisa ter participado do evento e ter
             uma carteira na rede Sepolia.
           </p>
 
-          <p className="py-5 text-sm md:text-base">
+          <p className="py-5 text-base">
             Ainda não tem uma carteira? Acesse o link e crie a sua já:{" "}
             <a className="text-blue-500 hover:underline" href="https://metamask.io/download/">
               Clique aqui.
