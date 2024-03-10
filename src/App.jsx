@@ -1,10 +1,13 @@
 import "./App.css";
+import logo from "./assets/logo.svg"
+import github from "./assets/github.svg"
+import wpp from "./assets/wpp.svg"
 
 function App() {
   return (
     <>
       <div className="flex flex-col justify-content items-center">
-        <img src="src/assets/logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
 
         <div className="shadow-lg rounded-lg w-4/6 text-left bg-white text-white bg-opacity-20 px-4 py-8 mt-5 backdrop-blur-lg">
           <p className="text-2xl mb-4 ">
@@ -69,7 +72,7 @@ function App() {
             <span className="flex flex-row">
               Todo o código pode ser encontrado aqui:
               <img
-                src="src/assets/github.svg"
+                src={github}
                 alt=""
                 className="ml-2"
                 width={16}
@@ -83,7 +86,7 @@ function App() {
             <span className="flex flex-row">
               Caso tenha alguma dúvida:
               <img
-                src="src/assets/wpp.svg"
+                src={wpp}
                 alt="wpp"
                 width={16}
                 height={16}
