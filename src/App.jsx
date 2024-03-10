@@ -17,7 +17,7 @@ function App() {
 
           <p className="py-5 text-sm md:text-base">
             Ainda não tem uma carteira? Acesse o link e crie a sua já:{" "}
-            <a className="text-blue-500 hover:underline" href="">
+            <a className="text-blue-500 hover:underline" href="https://metamask.io/download/">
               Clique aqui.
             </a>
           </p>
@@ -65,7 +65,7 @@ function App() {
           </form>
         </div>
         <div className="mt-8 ">
-          <a href="" className="text-gray-400 text-sm">
+          <a href="https://github.com/HeitorCand/workBlockchain" className="text-gray-400 text-sm">
             <span className="flex flex-row">
               Todo o código pode ser encontrado aqui:
               <img
@@ -79,7 +79,7 @@ function App() {
           </a>
         </div>
         <div className="mt-4">
-          <a href="" className="text-gray-400 text-sm">
+          <a href="https://chat.whatsapp.com/EoP5wbGPujg8vpG9f6KNWz" className="text-gray-400 text-sm">
             <span className="flex flex-row">
               Caso tenha alguma dúvida:
               <img
