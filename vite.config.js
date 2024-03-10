@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base:"/workBlockchain",
   build:{
-    assetsDir: 'assets',
+    assetsDir: 'src/assets',
   }
 })
