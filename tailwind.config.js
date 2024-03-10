@@ -3,7 +3,7 @@ export default {
   content: [
     "./index.html",
     "./index.css",
-    "./src/assets/",
+    "./assets/",
     "./src/**/*.{js,ts,jsx,tsx,svg}",
   ],
   theme: {
