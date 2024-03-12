@@ -1,5 +1,5 @@
 export default function Input(props) {
-  return (
+  return (  
     <div className={`flex flex-col text-left ${props.className}`}>
       <label className="font-bold">{props.title}</label>
       <span className="text-sm mb-2 text-gray-200">
